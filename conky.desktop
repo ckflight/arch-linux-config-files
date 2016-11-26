@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=conky
+GenericName=desktop background system monitor
+Comment=conky
+Exec=conky -q -d
+Terminal=false
+Hidden=false
+Type=Application
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Phase=Application
+X-GNOME-Autostart-Delay=5
