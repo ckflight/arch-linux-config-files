@@ -166,11 +166,11 @@ workspace $workspace3 output LVDS1
 workspace $workspace4 output LVDS1
 workspace $workspace5 output LVDS1
 
-workspace $workspace6 output DP1 
-workspace $workspace7 output DP1
-workspace $workspace8 output DP1
-workspace $workspace9 output DP1
-workspace $workspace10 output DP1
+workspace $workspace6 output VGA1 
+workspace $workspace7 output VGA1
+workspace $workspace8 output VGA1
+workspace $workspace9 output VGA1
+workspace $workspace10 output VGA1
 
 # now i should just be able to uncomment when I'm doing presentations at work 
 # instead of acting like a 100000 year old man
@@ -181,6 +181,11 @@ workspace $workspace10 output DP1
 #workspace $workspace9 output HDMI1
 #workspace $workspace10 output HDMI1
 
+#workspace $workspace6 output DP1
+#workspace $workspace7 output DP1
+#workspace $workspace8 output DP1
+#workspace $workspace9 output DP1
+#workspace $workspace10 output DP1
 # startup stuff
 #exec --no-startup-id i3-msg 'workspace $workspace2; exec google-chrome ; workspace $workspace1'
 
