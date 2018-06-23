@@ -1,0 +1,6 @@
+i went to input.club/configurator-whitefox to configure the whitefox keyboard.
+
+then i just picked ``whitefox aria", and set up the keyboard exactly the way that i wanted.
+THEN, i had to sudo pacman -S dfu-util,
+THEN, i had to use a paper clip to press a tiny hole on bottom of my keyboard for ``flash mode"
+THEN, i ran (using the thinkpad keyboard sudo dfu-util -D kiiboh.somethingsoemthing.bin, and it uploaded the keymap 
