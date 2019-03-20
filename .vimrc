@@ -9,7 +9,6 @@ endif
 " Enable line numbers
 set nu
 set relativenumber
-
 " Don't let lines wrap text
 set nowrap
 
@@ -28,11 +27,12 @@ set tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 "set colorscheme to dark.
 "colorscheme darkblue
-
-"make copy pasting NORMAL
-vnoremap <C-c> "+y
-map <C-p> "+P
-
-
+colorscheme morning
 syntax on
 
+" make it easier to copy from my clipboard
+" set clipboard=unnamedplus
+
+" god help me copy and paste shit
+vnoremap <C-c> "+y
+map <C-p> "+P
